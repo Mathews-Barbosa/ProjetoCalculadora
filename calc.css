@@ -1,0 +1,45 @@
+body {
+    background-color:azure;
+    position: absolute;
+    left: 405px;
+    margin: 6%;
+    margin-top: 12%;
+    padding: center;
+    box-shadow: 1px;
+    text-align: center;
+    width: 28%;
+    height: 0%;
+
+}
+
+#bot {
+    font-style: negrito; 
+    border-radius: 25%;
+    text-align: center;
+    background-color: rgb(159, 155, 163);
+    color: black;
+    margin-bottom: 5px;
+    align-items: center;
+    top: 50%;
+    width: 18%;
+    margin-top: 1%;
+    padding-top:20px;
+    padding-right: 8px;
+    padding-bottom: 6px;
+    padding-left: 8px;
+    border-top: 5%;
+
+}
+
+.column-keys {
+    background-color: whitesmoke;
+    
+}
+
+#display {
+    background-color: rgb(255, 255, 255);
+    display: relative;
+    height: 30px;
+    border-radius: 9%;
+}
+
