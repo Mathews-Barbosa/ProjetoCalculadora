@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Carcule</title>
+  <link rel="shotcut icon" href="Dakirby309-Windows-8-Metro-Apps-Calculator-Metro.ico" type="image/x-icon"> 
+  <meta charset="UTF-8">
+  <script src="scriptcalc.js"></script>
+  <link rel="stylesheet" href="calc.css" />
+</head>
+
+<body>
+
+  <div>
+    <fieldset>
+      <div class="calculator">
+
+        <div class="display"><br>
+          <input type="text" id="display" readonly><br><br>
+        </div><br>
+        <div class="keys">
+          <div class="column-keys">
+            <button id="bot" onclick="add('+')" class="operator">+</button>
+            <button id="bot" onclick="add('1')">1</button>
+            <button id="bot" onclick="add('2')">2</button>
+            <button id="bot" onclick="add('3')">3</button>
+            <button id="bot" onclick="add('0')">0</button>
+
+          </div>
+          <div class="column-keys">
+            <button id="bot" onclick="add('-')" class="operator">-</button>
+            <button id="bot" onclick="add('4')">4</button>
+            <button id="bot" onclick="add('5')">5</button>
+            <button id="bot" onclick="add('6')">6</button>
+            <button id="bot" onclick="add('.')">.</button>
+          </div>
+          <div class="column-keys">
+            <button id="bot" onclick="add('*')" class="operator">*</button>
+            <button id="bot" onclick="add('7')">7</button>
+            <button id="bot" onclick="add('8')">8</button>
+            <button id="bot" onclick="add('9')">9</button>
+            <button id="bot" onclick="clean()">C</button>
+          </div>
+          <div class="column-keys">
+            <button id="bot" onclick="add('/')" class="operator">/</button>
+            <button id="bot" onclick="calculate()" class="equal">=</button>
+          </div>
+        </div>
+      </div><br>
+
+    </fieldset><br>
+  </div>
+</body>
+
+</html>
